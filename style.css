@@ -1,0 +1,39 @@
+.hide{
+    display: none;hogwa
+}
+
+@media screen and (max-width:768px) {
+       #son{
+        display: none;
+       }
+
+       #hamb{
+        display: block;
+       }
+
+       #navv{
+        display: none;
+
+       }
+
+       
+       #venom{
+        width:65%;
+        justify-content: space-between;
+       }
+     
+       #hogwarts{
+        display: flex;
+        flex-direction : column;
+        align-items : center;
+        margin-top: 80px;
+       }
+      
+}
+
+@media screen and (min-width:769px){
+    #hamb img{
+        display: none;
+    }
+}
+
